@@ -1,0 +1,7 @@
+---
+# Install Redis Server.
+- hosts: redis
+  become: true
+  roles:
+    - redis_server
+
